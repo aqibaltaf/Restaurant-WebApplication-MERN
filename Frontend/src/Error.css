@@ -1,0 +1,10 @@
+.errorpage{
+    width: 100%;
+    height: 100%;
+}
+
+#heading{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15%;
+}

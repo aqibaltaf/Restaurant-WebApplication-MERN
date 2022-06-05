@@ -1,0 +1,104 @@
+.Navbar-main .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    text-align: left;
+    margin: 0px 75px;
+    width: fit-content;
+}
+
+.header-button{
+    display: flex;
+    flex-direction: row;
+    margin-right: 67px;
+}
+
+.profile{
+  height: 42px;
+  width: 42px;
+  padding: 11px;
+  background: url(./Images/Profile.png);
+  background-size: 43px;
+  background-repeat: no-repeat;
+  outline: none !important;
+  text-align: right;
+  margin: 12px 9px;
+  background-position-x: right;
+  border: 0px;
+}
+
+.profile:hover{
+  transform: translateY(1px);
+}
+
+.btn-header:hover, .btn-header:active {
+    background: rgb(245, 118, 59);
+    color: white;
+  }
+  
+  .hbtn-header:active {
+    transform: translateY(1px);
+  }
+
+.btn-header{
+    height: 37px;
+    opacity: 85%;
+    background: white;
+    width: 80px;
+    border: 1px solid rgb(245, 118, 59);
+    border-radius: 5px;
+    padding: 11px;
+    box-shadow: none;
+    color: black;
+    font-weight: bold;
+    text-shadow: none;
+    outline: none !important;
+    margin: 15px 9px;
+}
+
+.Navbar-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 0px 75px;
+    opacity: 90%;
+    background-color: rgb(245, 118, 59);
+    transform: translate(-2px ,-5px);
+  }
+  
+  .Navbar-main li {
+    float: left;
+  }
+  
+  .Navbar-main li a {
+    display: block;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 19px;
+    text-decoration: none;
+  }
+  
+ .Navbar-main li a:hover:not(.active) {
+    background-color: #fc3d03;
+  }
+  
+  .Navbar-main .active {
+    background-color: #ff3604;
+  }
+  
+ .Navbar-main a {
+    text-decoration: none;
+    font-size: larger;
+    display: inline-block;
+  }
+  
+  .thumb {
+    width: 100%;
+    height: 250px;
+  }
+
+  

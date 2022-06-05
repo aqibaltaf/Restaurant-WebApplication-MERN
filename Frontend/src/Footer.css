@@ -1,0 +1,17 @@
+.site-footer
+{
+  background-color:rgb(240, 134, 85);
+  width: 100%;
+  position: fixed;
+  /* height: 69px; */
+  bottom: 0;
+  /* border: 1px solid; */
+  color: white;
+  opacity: 95%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row{
+    display: inline-flex;
+}

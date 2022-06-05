@@ -1,0 +1,105 @@
+.thumb-n {
+  width: fit-content;
+  height: 150px;
+}
+
+.Desi-Category {
+  width: 22%;
+  float: left;
+  margin: 10px 5.5%;
+  text-align: left;
+  /* padding-left: 37px; */
+}
+
+#Desi-Banner{
+  overflow: hidden;
+  height: 25vh;
+  margin: 5px 72px;
+  background: url(./Images/Desi-banner.png);
+  background-size: contain;
+  /* display: table; */
+  background-position: 0px 70px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#BBQ-Banner{
+  overflow: hidden;
+  height: 25vh;
+  width: 90%;
+  margin: 5px 72px;
+  background: url(./Images/BBQ-banner.png);
+  background-size: contain;
+  /* display: table; */
+  background-position: 0px -15px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.BBQ-Category{
+  width: 22%;
+  float: left;
+  margin: 10px 5.5%;
+  text-align: left;
+  /* padding-left: 37px; */
+}
+
+.Title{
+font-size: large;
+}
+
+.Description{
+  font-size: smaller;
+  margin-top: -12px;
+
+}
+
+.Price{
+  margin-top: -5px;
+  font-size: x-large;
+
+}
+
+
+#details {
+  background: rgb(35, 163, 206);
+  color: white
+}
+
+img {
+  max-width: 100%;
+}
+
+#applybutton {
+  float: left;
+  color : white;
+  background-color: white;
+  /* margin-bottom: 15px; */
+  border: 1px solid rgb(245, 118, 59);
+  background-color: rgb(245, 118, 59);
+  opacity: 85%;
+  border-radius: 7px;
+  padding: 14px;
+  width: 35%;
+  margin-bottom: 15px;
+  margin-top: -35px;
+  /* color: white; */
+}
+
+#applybutton:hover, #applybutton:active {
+  background: #eb5e3b;
+}
+
+#applybutton:active{
+  transform: translateY(1px);
+}
+
+
+#ap {
+  color: white;
+  font-weight: bold;
+}
+
+#rd {
+  color: #7b8a95;
+}
